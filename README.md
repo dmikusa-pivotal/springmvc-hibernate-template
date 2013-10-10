@@ -1,3 +1,6 @@
+
+** This app has been modified to run with the [CF Maven Build Pack](https://github.com/dmikusa-pivotal/cf-maven-buildpack) **
+
 # Spring on Cloud Foundry
 
 This is a simple application that demonstrates how to use Spring on Cloud Foundry. 
