@@ -1,11 +1,12 @@
 --- 
 applications: 
 - name: springmvc-hibernate-template
-  memory: 512M
+  memory: 1G
   instances: 1
   host: springmvc-hibernate-template-${random-word}
   domain: cfapps.io
-  path: target
+  path: .
+  buildpack: https://github.com/dmikusa-pivotal/cf-maven-buildpack.git
   services: 
     springmvc-hibernate-db: 
       label: elephantsql
